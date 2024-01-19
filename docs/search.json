@@ -35,6 +35,20 @@
     "text": "Here you can find links for the slides and practicals the course"
   },
   {
+    "objectID": "dataset.html",
+    "href": "dataset.html",
+    "title": "Data and code for BIO 4158",
+    "section": "",
+    "text": "All data and code files in a nice zip"
+  },
+  {
+    "objectID": "dataset.html#data-for-praticals",
+    "href": "dataset.html#data-for-praticals",
+    "title": "Data and code for BIO 4158",
+    "section": "Data for praticals",
+    "text": "Data for praticals\n\nage.csv\nanc1dat.csv\nanc3dat.csv\nBiston_pd_1.csv\nBiston_pd_2.csv\nBiston_student.csv\nDam10dat.csv\ndragons.csv\nErablesGatineau.csv\nhypoxia.uottawa.csv\nJacobsenDangles_1.csv\nJacobsenDangles_2.csv\nloglin.csv\nMregdat.csv\nnematodes.csv\nnestdat.csv\nnr2wdat.csv\nsalmonella.csv\nsimulies.csv\nsimuliidae.csv\nskulldat_2020.csv\nskulldat-rm.csv\nStu2mdat.csv\nStu2wdat.csv\nsturgdat.csv\nsturgeon.csv\nUSPopSurvey.csv\nwmc2dat2.csv\nwmcdat2.csv"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Applied biostatistics with R",
