@@ -3,9 +3,7 @@
   "result": {
     "engine": "knitr",
     "markdown": "---\ntitle: \"Lectures\"\n---\n\n[L1_html]: slides/L1.html\n[L1_pdf]: slides/L1.pdf\n[L2_html]: slides/L2.html\n[L2_pdf]: slides/L2.pdf\n[L3_html]: slides/L3.html\n[L3_pdf]: slides/L3.pdf\n\n[manual]: https://biostats-uottawa.github.io/bio4158_manual/ \n\n\n[lab_website]: https://juliengamartin.github.io/\n[moi_uo]: https://www.uottawa.ca/faculty-science/professors/julien-martin\n[moi_github]: https://github.com/juliengamartin\n\n[cran]: https://cloud.r-project.org/\n[rstudio_d]: https://rstudio.com/products/rstudio/download/#download\n[vscode_d]: https://code.visualstudio.com/Download\n\n<!-- extra -->\n[rmark_cs]: https://rstudio.github.io/cheatsheets/rmarkdown.pdf\n[debug_pdf]: practical_extra/tbs_pdf_rmd.html\n[git_cred]: https://usethis.r-lib.org/articles/git-credentials.html\n[happy_git]: https://happygitwithr.com/\n\n\n\n\nHere you can find links for the slides and practicals the course\n\n<!--| Week | Subject | Slides | Practical |\n|:----:|:---------:|:--------|:-----------|\n|  1 | Introduction | [html][L1_html] / [PDF][L1_pdf] |\n|  2 | Introduction to Rmarkdown | [html][L2_html] / [PDF][L2_pdf] | [Chapter 2](p_rmarkdown) |\n|  3 | Introduction to github | [html][L3_html] / [PDF][L3_pdf] | [Chapter 3][p_github] |\n|  X | ... | [html][LX_html] / [PDF][LX_pdf] | [Chapter X][p_] | -->\n\n",
-    "supporting": [
-      "lectures_files"
-    ],
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

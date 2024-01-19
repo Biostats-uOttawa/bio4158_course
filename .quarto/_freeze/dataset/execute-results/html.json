@@ -3,9 +3,7 @@
   "result": {
     "engine": "knitr",
     "markdown": "---\ntitle: \"Data and code for BIO 4158\"\nformat:\n  html:\n    toc: false\n---\n\n::: {.cell}\n\n:::\n\n<!--\n[All data and code files in a nice zip](data/bio4x58_data_code.zip)\n\n## Data for praticals\n\n- [Banta_TotalFruits.csv](data/csv/Banta_TotalFruits.csv)    \n- [dragons.csv](data/csv/dragons.csv) \n- [unicorns_aggression.csv](data/csv/unicorns_aggression.csv)\n\n\n\n## R code and functions used\n\n- [extra-funs.R](data/code/extra-funs.R)\n\n-->",
-    "supporting": [
-      "dataset_files"
-    ],
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
