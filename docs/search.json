@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Applied biostatistics to real problems. Experimental design and data collection. Consequences of violating assumptions of different tests. Monte Carlo and Bootstrap analysis. Case studies and exercises in using statistical analysis packages."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Julien Martin\n\n\n\n\n\n\n\n\n\n\n\n\nJulien is an Associate Professor at the University of Ottawa and has been teaching (and learning) R for the last 15 years.\n\nUniversity page\nLab website\nGitHub"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Applied biostatistics with R",
+    "section": "",
+    "text": "This is an undergraduate level class at the University of Ottawa taugh by Julien Martin\nWhen and where:\n\nLectures:\n\nMondays 1:00-2:20 pm in SMD 224\nWednesdays 11:30 am-12:50 pm in SMD 224\n\nLabs\n\nWednesday 2:30-5:30 in in LPR 155\n\n\n\nCourse info\n\nLecture slides\nPractical manual\nSyllabus\n\n\n\nRequirements\n\n\nYou will need a recent version of R (4.0.0 or highher)\nInstall R and your favourite R IDE RStudio or VSCode\n\n\n\n\nCorrections\nIf you see mistakes or want to suggest changes, please create an issue on the source repository.\n\n\nReuse\nText and figures are licensed under Creative Commons Attribution CC BY 4.0. Any computer code (R, HTML, CSS, etc.) in slides and worksheets, including in slide and worksheet sources, is also licensed under MIT."
+  },
+  {
+    "objectID": "dataset.html",
+    "href": "dataset.html",
+    "title": "Data and code for BIO8940",
+    "section": "",
+    "text": "All data and code files in a nice zip"
+  },
+  {
+    "objectID": "dataset.html#data-for-praticals",
+    "href": "dataset.html#data-for-praticals",
+    "title": "Data and code for BIO8940",
+    "section": "Data for praticals",
+    "text": "Data for praticals\n\nBanta_TotalFruits.csv\n\ndragons.csv\nunicorns_aggression.csv"
+  },
+  {
+    "objectID": "dataset.html#r-code-and-functions-used",
+    "href": "dataset.html#r-code-and-functions-used",
+    "title": "Data and code for BIO8940",
+    "section": "R code and functions used",
+    "text": "R code and functions used\n\nextra-funs.R"
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Here you can find links for the slides and practicals the course"
+  },
+  {
+    "objectID": "practical_extra.html",
+    "href": "practical_extra.html",
+    "title": "Extra information for praticals",
+    "section": "",
+    "text": "rmarkdown cheatsheet\nTroubleshoot PDF in Rmarkdown"
+  },
+  {
+    "objectID": "practical_extra.html#rmarkdown",
+    "href": "practical_extra.html#rmarkdown",
+    "title": "Extra information for praticals",
+    "section": "",
+    "text": "rmarkdown cheatsheet\nTroubleshoot PDF in Rmarkdown"
+  },
+  {
+    "objectID": "practical_extra.html#introduction-to-github",
+    "href": "practical_extra.html#introduction-to-github",
+    "title": "Extra information for praticals",
+    "section": "Introduction to github",
+    "text": "Introduction to github\n\nManaging git credentials\nHappy git with R great book about git and R"
+  },
+  {
+    "objectID": "syllabus.html#objectifs-spécifiques",
+    "href": "syllabus.html#objectifs-spécifiques",
+    "title": "Syllabus",
+    "section": "Objectifs spécifiques",
+    "text": "Objectifs spécifiques\nAprès avoir complété ce cours vous deviez pouvoir :\n\nComprendre et appliquer les principes fondamentaux de l’inférence statistique\nComprendre les principes sous-jacents des principaux tests statistiques\nConnaître les conditions d’application des principaux tests statistiques, les effets des violations de ces conditions et pouvoir y remédier\nAppliquer une méthode de travail appropriée pour l’analyse quantitative de données\nEffectuer des analyses statistiques communes avec un logiciel statistique (R)\nInterpréter correctement la signification statistique et biologique des résultats des tests statistiques."
+  },
+  {
+    "objectID": "syllabus.html#professeur",
+    "href": "syllabus.html#professeur",
+    "title": "Syllabus",
+    "section": "Professeur",
+    "text": "Professeur\nJulien Martin\n\nCourriel: julien.martin@uottawa.ca\nBureau: GNN 279\nTéléphone: 613-562-5800 ext. 2942\nHeures de bureau: Lundi 14:30-16:30 ou sur rendez-vous."
+  },
+  {
+    "objectID": "syllabus.html#auxilliaire-denseignement",
+    "href": "syllabus.html#auxilliaire-denseignement",
+    "title": "Syllabus",
+    "section": "Auxilliaire d’enseignement",
+    "text": "Auxilliaire d’enseignement\nThibaut Barra\n\nCourriel:tbarr024@uottawa.ca"
+  },
+  {
+    "objectID": "syllabus.html#devoirsrapports-de-labo",
+    "href": "syllabus.html#devoirsrapports-de-labo",
+    "title": "Syllabus",
+    "section": "Devoirs/Rapports de labo",
+    "text": "Devoirs/Rapports de labo\nVous pouvez faire ces devoirs en équipe (maximum de 3) ou individuellement. Si vous choisissez de faire un devoir en équipe, tous les membres de l’équipe recevront la même note. Pour chaque devoir, vous aurez à effectuer une analyse statistique et parfois à répondre à une ou des questions. Pour les analyses statistiques, vos devoirs devraient contenir:\n\nUn énoncé de l’hypothèse biologique et de(s) prédiction(s)\nUn énoncé de(s) hypothèse(s) nulle(s)\nUne justification du choix de l’analyse\nLes résultats statistiques, incluant Figures, Tableaux et extraits de R si utiles\nUn énoncé et un examen des conditions d’application du ou des tests statistiques utilisés pour éprouver vos hypothèses statistiques\nL’interprétation statistique des résultats\nL’interprétation biologique des résultats.\n\nLes retards seront pénalisés à raison de 5% immédiatement puis 5% par jour (incluant les samedis et dimanche) avec un maximum de 3 jours. Seuls des motifs sérieux, assortis d’une justification approuvée, pourront excuser des retards dans la remise des travaux."
+  },
+  {
+    "objectID": "syllabus.html#examen-mi-session",
+    "href": "syllabus.html#examen-mi-session",
+    "title": "Syllabus",
+    "section": "Examen mi-session",
+    "text": "Examen mi-session\nIl y aura un examen de mi-session, à livre ouvert d’une durée de 1h30\nCet examen vise à évaluer votre capacité à planifier une analyse de données pour répondre à une question biologique, à interpréter statistiquement et biologiquement les résultats d’analyses et à expliquer certains des concepts fondamentaux des biostatistiques.\nIl n’y aura pas d’examen de remplacement pour l’examen de mi-session. En cas d’absence à l’examen de mi-session, il est possible de changer la pondération du travail de session à 50% suite à une discussion avec le professeur."
+  },
+  {
+    "objectID": "syllabus.html#rapport-de-session",
+    "href": "syllabus.html#rapport-de-session",
+    "title": "Syllabus",
+    "section": "Rapport de session",
+    "text": "Rapport de session\nUn rapport d’analyse (15 pages) sur des données unique pour chaque étudiant sera à remettre à la fin de la session"
+  },
+  {
+    "objectID": "syllabus.html#travaux-en-retard",
+    "href": "syllabus.html#travaux-en-retard",
+    "title": "Syllabus",
+    "section": "Travaux en retard",
+    "text": "Travaux en retard\nTous travaux doivent être soumises à la date et à l’heure prévues. Toutes les soumissions en retard seront immédiatement pénalisés de 5%, avec un supplément de 5% pour chaque jour de retard, jusqu’à un maximum de 3 jours, y compris les week-ends. Après trois jours, vous recevra une note de zéro (0 %). Aucun retard dans la remise des travaux ne sera toléré, à moins de maladie ou autre"
+  },
+  {
+    "objectID": "syllabus.html#les-demandes-des-révisions-de-note",
+    "href": "syllabus.html#les-demandes-des-révisions-de-note",
+    "title": "Syllabus",
+    "section": "Les demandes des révisions de note",
+    "text": "Les demandes des révisions de note\nSi vous souhaitez demander une révision de note, vous devrez suivre les étapes indiquées dans le règlement scolaire 10.3:\n\nvérifiez le règlement 10.3 pour déterminer les dates limites pour demander une révision de note\ncommuniquez avec votre professeur.e afin d’obtenir des explications et de comprendre les motifs ayant mené à cette note\nsi vous n’êtes pas satisfait.e des explications fournies, vous pouvez soumettre une demande de révision de note au directeur/ à la directrice de l’unité scolaire qui offre le cours. La demande DOIT contenir :\n\nl’intitulé du cours, le plan de cours, la note obtenue et le nom du professeur ayant attribué la note\nles motifs de la demande de révision\nla copie corrigée par le professeur, s’il y a lieu, et tout autre document pertinent"
+  },
+  {
+    "objectID": "syllabus.html#examen-final",
+    "href": "syllabus.html#examen-final",
+    "title": "Syllabus",
+    "section": "Examen final",
+    "text": "Examen final\nUn rapport d’analyse (15 pages) sur des données unique pour chaque étudiant sera à remettre à la fin de la session"
+  },
+  {
+    "objectID": "syllabus.html#instructor",
+    "href": "syllabus.html#instructor",
+    "title": "Syllabus",
+    "section": "Instructor",
+    "text": "Instructor\nDr. Julien Martin, Department of Biology, GNN 279 Office hours: Monday 14:30 - 16h00 or by appointment: julien.martin@uottawa.ca"
+  },
+  {
+    "objectID": "syllabus.html#teaching-assistants",
+    "href": "syllabus.html#teaching-assistants",
+    "title": "Syllabus",
+    "section": "Teaching assistants",
+    "text": "Teaching assistants\nPlease consult the TA’s first for questions related to the lab exercises and assignments.\nAlibek Kruglikov: akrug104@uottawa.ca Office hours: online Monday 8:00-9:00 or by appointment https://uottawa-ca.zoom.us/j/92008289443?pwd=YXlEcDdwSjltN3poNWI1RG9pa0FEUT09\nMahbubeh Askari Rad: maska102@uottawa.ca Office hours: GNN 287 (Wednsday 1pm-2pm)"
+  },
+  {
+    "objectID": "syllabus.html#lab-assignments",
+    "href": "syllabus.html#lab-assignments",
+    "title": "Syllabus",
+    "section": "Lab assignments",
+    "text": "Lab assignments\nYou can work individually or in teams up to three (latter is encouraged). If you submit a team assignment, except under exceptional circumstances all members of the team will receive the same grade. You must submit a single PDF copy of your assignments with all students names and ID listed at the top (submit a single copy for the group). Late assignments will be penalized 10% per day or part thereof. Assignments will consist of either a series of questions to answer or a statistical analysis to perform."
+  },
+  {
+    "objectID": "syllabus.html#exams",
+    "href": "syllabus.html#exams",
+    "title": "Syllabus",
+    "section": "Exams",
+    "text": "Exams\n\nMidterm\nin class (see schedule for date), open book, calculators are permitted. A make-up will not be offered. Those with a valid excuse for missing the midterm (e.g., a doctor’s note) will have the final exam re-weighted to be worth 50%. The midterm will be available on the course website afterwards; if you do not write it officially (e.g. for medical reasons), then I strongly suggest you attempt it on your own time. We will happily mark it to provide feedback (your mark won’t count toward your final grade). Those who miss the midterm and do not do this generally perform poorly on the final.\n\n\nSession project\nThe final evaluation will take the form of a written report of the analysis of data (unique to each student) of 15 pages and to be submitted before the exam period."
+  }
+]

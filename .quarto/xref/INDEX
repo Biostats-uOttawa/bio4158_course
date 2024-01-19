@@ -1,0 +1,23 @@
+{
+  "404.qmd": {
+    "404.html": "950918c3"
+  },
+  "dataset.qmd": {
+    "dataset.html": "f1703a42"
+  },
+  "index.qmd": {
+    "index.html": "0577b02d"
+  },
+  "lectures.qmd": {
+    "lectures.html": "8f99a200"
+  },
+  "people.qmd": {
+    "people.html": "6b8d1a9e"
+  },
+  "practical_extra.qmd": {
+    "practical_extra.html": "9f25f4b2"
+  },
+  "syllabus.qmd": {
+    "syllabus.html": "e5c59b07"
+  }
+}

@@ -1,0 +1,18 @@
+---
+title: "Extra information for praticals"
+---
+
+{{< include _links.qmd >}}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## Introduction Rmarkdown {#rmarkdown}
+
+* [rmarkdown cheatsheet][rmark_cs]
+* [Troubleshoot PDF in Rmarkdown][debug_pdf]
+
+## Introduction to github
+
+* [Managing git credentials][git_cred]
+* [Happy git with R][happy_git] great book about git and R

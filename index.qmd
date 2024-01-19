@@ -1,0 +1,56 @@
+---
+title: "Applied biostatistics with R"
+format:
+  html:
+    toc: false
+---
+
+{{< include _links.qmd >}}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r timing, echo = FALSE}
+start <- 1430
+stop <- 1720
+where <- "CRX-C323"
+```
+
+This is an undergraduate level class at the University of Ottawa taugh by [Julien Martin][lab_website]
+
+When and where:
+
+{{< include where.qmd >}}
+
+# Course info
+
+* [Lecture slides](lectures.qmd)
+* [Practical manual][manual]
+* [Syllabus](syllabus.qmd)
+
+
+# Requirements
+
+<!-- * Download and install [Git](https://git-scm.com/downloads). -->
+
+* You will need a recent version of R (4.0.0 or highher)
+
+* Install [`R`][cran] and your favourite R IDE [`RStudio`][rstudio_d] or [`VSCode`][vscode_d]
+
+<!-- * Have Git, GitHub and RStudio talk to each other following [these guidelines (section 2.2.2 Configuration only)](https://inbo.github.io/git-course/course_rstudio.html#222_configuration). -->
+
+<!-- * Install the following `R` packages: `tidyverse`, `sf`, `emo`, `janitor`, `palmerpenguins`, `usethis` and `lubridate.` You can install them all at once by running the following code in the `R` command line: -->
+
+```{r eval = FALSE, echo = FALSE}
+install.packages(c("tidyverse", "sf", "emo", "janitor", "palmerpenguins", "usethis", "lubridate"))
+```
+
+#### Corrections {-}
+
+If you see mistakes or want to suggest changes, please [create an issue](https://github.com/biostats-uOttawa/bio4158_course/issues) on the source repository.
+
+#### Reuse {-}
+
+Text and figures are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Any computer code (R, HTML, CSS, etc.) in slides and worksheets, including in slide and worksheet sources, is also licensed under [MIT](https://github.com/biostats-uOttawa/bio4158_course/blob/master/LICENSE.md). 
+
