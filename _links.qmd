@@ -6,7 +6,9 @@
 [L3_html]: slides/L3.html
 [L3_pdf]: slides/L3.pdf
 
-[manual]: https://biostats-uottawa.github.io/bio4158_manual/ 
+[manual_4158]: https://biostats-uottawa.github.io/bio4158_manual/ 
+[manual_4558]: https://biostats-uottawa.github.io/bio4158_manual/ 
+[manual_8940]: https://biostats-uottawa.github.io/bio8940_manual/
 
 
 [lab_website]: https://juliengamartin.github.io/

@@ -13,7 +13,7 @@ website:
   description: "Applied biostatistics with R"
   navbar:
     title: "BIO4158"
-    right:
+    left:
       - text: Lectures
         href: lectures.qmd
       - text: "Practicals"
@@ -38,19 +38,20 @@ website:
             href: https://biostats-uottawa.github.io/R_way/ 
           - text: Chemin de l'enf-R
             href: https://biostats-uottawa.github.io/chemin_R/
-      - text: ""
-        icon: envelope
+    tools:
+      - icon: envelope
         href: people.html
+        text: Contact
       - icon: github
         menu:
         - text: Code
-          href: https://github.com/biostats-uOttawa/bio4158_course
+          href: https://github.com/biostats-uOttawa/bio4158_manual
         - text: Issues
-          href: https://github.com/Biostats-uOttawa/bio4158_course/issues
-  
+          href: https://github.com/Biostats-uOttawa/bio4158_manual/issues
+
 format:
   html:
-    theme: yeti
+    theme: cosmo
     highlight: kate
     fig_align: center
     css: styles.css

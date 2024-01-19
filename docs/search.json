@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "where.html",
+    "href": "where.html",
+    "title": "BIO4158 course",
+    "section": "",
+    "text": "Lectures:\n\nMondays 1:00-2:20 pm in SMD 224\nWednesdays 11:30 am-12:50 pm in SMD 224\n\nLabs\n\nWednesday 2:30-5:30 in in LPR 155"
+  },
+  {
+    "objectID": "practical_extra.html",
+    "href": "practical_extra.html",
+    "title": "Extra information for praticals",
+    "section": "",
+    "text": "rmarkdown cheatsheet\nTroubleshoot PDF in Rmarkdown"
+  },
+  {
+    "objectID": "practical_extra.html#rmarkdown",
+    "href": "practical_extra.html#rmarkdown",
+    "title": "Extra information for praticals",
+    "section": "",
+    "text": "rmarkdown cheatsheet\nTroubleshoot PDF in Rmarkdown"
+  },
+  {
+    "objectID": "practical_extra.html#introduction-to-github",
+    "href": "practical_extra.html#introduction-to-github",
+    "title": "Extra information for praticals",
+    "section": "Introduction to github",
+    "text": "Introduction to github\n\nManaging git credentials\nHappy git with R great book about git and R"
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Here you can find links for the slides and practicals the course"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Applied biostatistics with R",
+    "section": "",
+    "text": "This is an undergraduate level class at the University of Ottawa taugh by Julien Martin\nWhen and where:\n\nLectures:\n\nMondays 1:00-2:20 pm in SMD 224\nWednesdays 11:30 am-12:50 pm in SMD 224\n\nLabs\n\nWednesday 2:30-5:30 in in LPR 155\n\n\n\nCourse info\n\nLecture slides\nPractical manual\nSyllabus\n\n\n\nRequirements\n\n\nYou will need a recent version of R (4.0.0 or highher)\nInstall R and your favourite R IDE RStudio or VSCode\n\n\n\n\nCorrections\nIf you see mistakes or want to suggest changes, please create an issue on the source repository.\n\n\nReuse\nText and figures are licensed under Creative Commons Attribution CC BY 4.0. Any computer code (R, HTML, CSS, etc.) in slides and worksheets, including in slide and worksheet sources, is also licensed under MIT."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Julien Martin\n\n\n\n\n\n\n\n\n\n\n\n\nJulien is an Associate Professor at the University of Ottawa and has been teaching (and learning) R for the last 15 years.\n\nUniversity page\nLab website\nGitHub"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Applied biostatistics to real problems. Experimental design and data collection. Consequences of violating assumptions of different tests. Monte Carlo and Bootstrap analysis. Case studies and exercises in using statistical analysis packages."
+  },
+  {
+    "objectID": "syllabus.html#instructor",
+    "href": "syllabus.html#instructor",
+    "title": "Syllabus",
+    "section": "Instructor",
+    "text": "Instructor\nDr. Julien Martin, Department of Biology, GNN 279 Office hours: Monday 14:30 - 16h00 or by appointment: julien.martin@uottawa.ca"
+  },
+  {
+    "objectID": "syllabus.html#teaching-assistants",
+    "href": "syllabus.html#teaching-assistants",
+    "title": "Syllabus",
+    "section": "Teaching assistants",
+    "text": "Teaching assistants\nPlease consult the TA’s first for questions related to the lab exercises and assignments.\nAlibek Kruglikov: akrug104@uottawa.ca Office hours: online Monday 8:00-9:00 or by appointment https://uottawa-ca.zoom.us/j/92008289443?pwd=YXlEcDdwSjltN3poNWI1RG9pa0FEUT09\nMahbubeh Askari Rad: maska102@uottawa.ca Office hours: GNN 287 (Wednsday 1pm-2pm)"
+  },
+  {
+    "objectID": "syllabus.html#lab-assignments",
+    "href": "syllabus.html#lab-assignments",
+    "title": "Syllabus",
+    "section": "Lab assignments",
+    "text": "Lab assignments\nYou can work individually or in teams up to three (latter is encouraged). If you submit a team assignment, except under exceptional circumstances all members of the team will receive the same grade. You must submit a single PDF copy of your assignments with all students names and ID listed at the top (submit a single copy for the group). Late assignments will be penalized 10% per day or part thereof. Assignments will consist of either a series of questions to answer or a statistical analysis to perform."
+  },
+  {
+    "objectID": "syllabus.html#exams",
+    "href": "syllabus.html#exams",
+    "title": "Syllabus",
+    "section": "Exams",
+    "text": "Exams\n\nMidterm\nin class (see schedule for date), open book, calculators are permitted. A make-up will not be offered. Those with a valid excuse for missing the midterm (e.g., a doctor’s note) will have the final exam re-weighted to be worth 50%. The midterm will be available on the course website afterwards; if you do not write it officially (e.g. for medical reasons), then I strongly suggest you attempt it on your own time. We will happily mark it to provide feedback (your mark won’t count toward your final grade). Those who miss the midterm and do not do this generally perform poorly on the final.\n\n\nSession project\nThe final evaluation will take the form of a written report of the analysis of data (unique to each student) of 15 pages and to be submitted before the exam period."
+  }
+]

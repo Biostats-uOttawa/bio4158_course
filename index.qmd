@@ -10,14 +10,7 @@ format:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
-```{r timing, echo = FALSE}
-start <- 1430
-stop <- 1720
-where <- "CRX-C323"
-```
-
-This is an undergraduate level class at the University of Ottawa taugh by [Julien Martin][lab_website]
+This is an undergraduate level class at the University of Ottawa taugh by [Julien Martin](people.qmd) 
 
 When and where:
 
@@ -26,7 +19,7 @@ When and where:
 # Course info
 
 * [Lecture slides](lectures.qmd)
-* [Practical manual][manual]
+* [Practical manual][manual_4158]
 * [Syllabus](syllabus.qmd)
 
 
