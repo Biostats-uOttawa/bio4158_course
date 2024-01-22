@@ -12,7 +12,7 @@ website:
   title: "BIO4158 course"
   description: "Applied biostatistics with R"
   navbar:
-    title: "BIO4158"
+    title: "BIO4158: course"
     left:
       - text: Lectures
         href: lectures.qmd
