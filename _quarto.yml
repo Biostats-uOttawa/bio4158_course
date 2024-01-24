@@ -12,6 +12,7 @@ website:
   title: "BIO4158 course"
   description: "Applied biostatistics with R"
   navbar:
+    background: light
     title: "BIO4158: course"
     left:
       - text: Lectures
@@ -45,13 +46,15 @@ website:
       - icon: github
         menu:
         - text: Code
-          href: https://github.com/biostats-uOttawa/bio4158_manual
+          href: https://github.com/biostats-uOttawa/bio4158_course
         - text: Issues
-          href: https://github.com/Biostats-uOttawa/bio4158_manual/issues
+          href: https://github.com/Biostats-uOttawa/bio4158_course/issues
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: [cosmo, css/theme-dark.scss]
     highlight: kate
     fig_align: center
     css: styles.css
