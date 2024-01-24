@@ -1,0 +1,51 @@
+schedule:
+  - week: 1
+    topic: "Introduction"
+    readings: ""
+  - week: 2
+    topic: "Introduction  to Rmarkdown"
+    readings: "[Alston & Rick 2021](https://doi.org/10.1002/bes2.1801)"
+  - week: 3
+    topic: "Introduction  to Github"
+#    tools: ""
+#    readings: "[Spencer (2022, Feb. 17). Data in Wonderland. Section 1.](https://ssp3nc3r.github.io/data_in_wonderland/)"
+  - week: 4
+#    tools: "`rmarkdown`, `distill`, git & github"
+    topic: "Generalized linear models (and revision of linear models)"
+#    readings: "[Quarto Guide](https://quarto.org/docs/guide/)"
+  - week: 5
+    topic: Causal structure and model building
+  - week: 6
+    topic: Introduction to mixed-models
+  - week: 7
+    topic: Weeks 1-6
+    assessment: "**Mid-term**"
+  - week: 8
+    topic: Generalised linear mixed models
+  - week: 9
+  - week: 10
+  - week: 11
+  - week: 12
+    topic: ""
+  - Week: 13
+    topic: week 1 - 13
+    assessment: "**Final exam**"
+team:
+  - name: Julien Martin
+    role: lecturer
+    consult: Wed 1100-1200 (in-person & online)
+  - name: TA1
+    role: tutor
+    consult:
+    consult: Fri 5.00-5.45pm (in-person)
+  - name: TA2
+    role: tutor
+    consult: Thu 6.00-6.45pm (in-person)
+
+timetable:
+  - class: "Lecture"
+    when: Tuesdays 1430-1720
+    where: CRX-C323
+#  - class: "Practical"
+#    when: Tuesdays 1430-1720
+#    where: CRX-C323
