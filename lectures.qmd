@@ -4,15 +4,109 @@ title: "Lectures"
 
 {{< include _links.qmd >}}
 
-```{r setup, include=FALSE}
+```{r}
+#| echo: false
+#| include: false
 knitr::opts_chunk$set(echo = FALSE)
+source("_yaml_extract.R")
 ```
-Here you can find links for the slides and practicals the course
 
-<!--| Week | Subject | Slides | Practical |
-|:----:|:---------:|:--------|:-----------|
-|  1 | Introduction | [html][L1_html] / [PDF][L1_pdf] |
-|  2 | Introduction to Rmarkdown | [html][L2_html] / [PDF][L2_pdf] | [Chapter 2](p_rmarkdown) |
-|  3 | Introduction to github | [html][L3_html] / [PDF][L3_pdf] | [Chapter 3][p_github] |
-|  X | ... | [html][LX_html] / [PDF][LX_pdf] | [Chapter X][p_] | -->
+
+### Lecturer {{< fa person-chalkboard >}}
+
+```{r lecturers, results="asis"}
+team_df %>%
+  filter(role == "lecturer") %>%
+  pull(name) %>%
+  ui_list()
+```
+
+### Teaching assitant`r ifelse(ntutor > 1, 's', '')`
+```{r tutors, results="asis"}
+team_df %>%
+  filter(role == "TA") %>%
+  pull(name) %>%
+  ui_list()
+```
+### Office hours {{< fa clock >}}
+
+Meetings will be in-person or online using zoom. Check brightspace for the links.
+
+```{r consult, results="asis"}
+team_df %>%
+  mutate(consult_print = glue::glue("**{name}**: {consult}")) %>%
+  pull(consult_print) %>%
+  ui_list()
+```
+
+### Schedule {{< fa calendar-days >}}
+
+```{r timetable, results="asis"}
+timetable_df %>%
+  mutate(timetable = glue::glue("**{class}**: {when} in {where}")) %>%
+  pull(timetable) %>%
+  ui_list()
+```
+
+There are no lectures or tutorials during reading week.
+
+```{r}
+check <- character(0)
+schedule_df <- schedule_df %>%
+  mutate(across(where(is.character), ~ na_if(., ""))) %>%
+rowwise() %>%
+  mutate(
+    lecture_file = ifelse(
+      identical(
+        str_subset(
+          list.files("slides/", pattern = "html", full.names = TRUE), pattern = sprintf("lec-%.2d", week)),
+        check),
+      NA,
+      str_subset(
+        list.files("slides/", pattern = "html", full.names = TRUE), pattern = sprintf("lec-%.2d", week))
+    ),
+    lecture = !is.na(lecture_file)
+  ) %>%
+  mutate(
+    slides = case_when(
+      lecture ~ glue("<a class='fa fa-link' href='{lecture_file}' target='_blank'></a> / <a class='fa fa-file-pdf' href='{sub(\"html\",\"pdf\", lecture_file)}' target='_blank'></a>"),
+      TRUE ~ ""
+    ),
+    topic = ifelse(is.na(topic), "", topic),
+    lab_link = paste0("https://biostats-uottawa.github.io/bio4158_manual/", lab_link),
+    lab = case_when(
+      !is.na(lab) ~ glue("<a class='fa fa-link' href='{lab_link}' target='_blank'>{lab}</a>"),
+      TRUE ~ ""
+    ),
+    assessment = ifelse(
+      is.na(assessment), "", assessment),
+    week = case_when(
+      is.na(week) ~ "",
+      TRUE ~ as.character(week)
+    )
+  ) %>%
+  select(week, topic, slides, lab, assessment)
+
+midsem_break <- 6 # after which week
+
+schedule_df %>%
+  kable(
+    escape = FALSE, align = c("l", "c", "c", "c", "c"),
+    col.names = c(
+      "Week", "Topic", "Slides", "Practical","Assessments"
+    )
+  ) %>%
+  kable_styling(
+    bootstrap_options = "striped",
+    fixed_thead = T
+  ) %>%
+  column_spec(1, width = "0.4cm") %>%
+  # column_spec(2, width = "3cm") %>%
+  # column_spec(3, width = "cm") %>%
+  group_rows("Reading week Break (1 week)", midsem_break + 1, 13, label_row_css = "background-color: #d9e1e8;") %>%
+  add_indent(1:(midsem_break)) # this needs to be done to match up with above
+```
+
+
+
 
