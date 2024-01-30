@@ -1,41 +1,102 @@
 schedule:
+  - week: 0
+    day: wed 
+    topic: Introduction
   - week: 1
+    day: mon
     topic: ""
-    readings: ""
-  - week: 2
-    topic: "test"
-  - week: 2
+  - week: 1
+    day: wed
     topic: ""
-    lab: Intro to R
-    lab_link: 01-introR_4.html 
-    readings: ""
+    practical: ""
+    assessment: ""
+  - week: 2
+    day: mon
+    topic: ""
+  - week: 2
+    day: wed
+    topic: ""
+    practical: ""
+    assessment: ""
   - week: 3
+    day: mon
     topic: ""
-#    tools: ""
-#    assessment: "Assessment 2 **due Fri 6 Oct 11:55 PM**"
-#    readings: "[Spencer (2022, Feb. 17). Data in Wonderland. Section 1.](https://ssp3nc3r.github.io/data_in_wonderland/)"
+  - week: 3
+    day: wed
+    topic: ""
+    practical: ""
+    assessment: ""
   - week: 4
-#    tools: "`rmarkdown`, `distill`, git & github"
+    day: mon
     topic: ""
-#    readings: "[Quarto Guide](https://quarto.org/docs/guide/)"
+  - week: 4
+    day: wed
+    topic: ""
+    practical: ""
+    assessment: ""
   - week: 5
+    day: mon
+    topic: " Thanksgiving"
+  - week: 5
+    day: wed
+    topic: ""
+    practical: ""
+    assessment: ""
+  - week: 6
+    day: mon
     topic: ""
   - week: 6
+    day: wed
+    topic: ""
+    practical: ""
+    assessment: ""
+# reading_week
+  - week: 7
+    day: mon
     topic: ""
   - week: 7
-    assessment: "<b>Mid-term (in class)</b>" 
+    day: wed
+    topic: "Mid-term"
+    practical: ""
+    assessment: "**Mid-term** during class"
   - week: 8
+    day: mon
+    topic: ""
+  - week: 8
+    day: wed
+    topic: ""
+    practical: ""
+    assessment: ""
+  - week: 9
+    day: mon
     topic: ""
   - week: 9
-  - week: 10
-  - week: 11
-#    lecturer: Kate
-#    topic: Guest lecture
-#    tools: ""
-#    readings: ""
-  - week: 12
+    day: wed
     topic: ""
-  - assessment: "<b>Final exam</b>"
+    practical: ""
+    assessment: ""
+  - week: 10
+    day: mon
+    topic: ""
+  - week: 10
+    day: wed
+    topic: ""
+    practical: ""
+    assessment: ""
+  - week: 11
+    day: mon
+    topic: ""
+  - week: 11
+    day: wed
+    topic: ""
+    practical: ""
+    assessment: ""
+  - week: 12
+    day: mon
+    topic: "Q&A"
+  - week: 12
+    day: wed
+    topic: "No lecture"
 
 team:
   - name: Julien Martin
