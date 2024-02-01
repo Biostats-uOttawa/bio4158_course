@@ -9,6 +9,7 @@ project:
     - "data/"
  
 website:
+  google-analytics: G-6LLMGL3T2Q
   title: "BIO4158 course"
   description: "Applied biostatistics with R"
   navbar:

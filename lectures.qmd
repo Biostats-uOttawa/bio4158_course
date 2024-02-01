@@ -8,6 +8,9 @@ title: "Lectures"
 #| echo: false
 #| include: false
 knitr::opts_chunk$set(echo = FALSE)
+library(lubridate)
+library(gt)
+library(tidyverse)
 source("_yaml_extract.R")
 ```
 
@@ -52,59 +55,75 @@ There are no lectures or tutorials during reading week.
 
 ```{r}
 check <- character(0)
-schedule_df <- schedule_df %>%
-  mutate(across(where(is.character), ~ na_if(., ""))) %>%
-rowwise() %>%
+schedule <- schedule_df %>%
+  rowwise() %>%
   mutate(
     lecture_file = ifelse(
       identical(
         str_subset(
-          list.files("slides/", pattern = "html", full.names = TRUE), pattern = sprintf("lec-%.2d", week)),
-        check),
+          list.files("slides/", pattern = "html", full.names = TRUE),
+          pattern = sprintf("lec-%.2d", week)
+        ),
+        check
+      ),
       NA,
       str_subset(
-        list.files("slides/", pattern = "html", full.names = TRUE), pattern = sprintf("lec-%.2d", week))
+        list.files("slides/", pattern = "html", full.names = TRUE),
+        pattern = sprintf("lec-%.2d", week)
+      )
     ),
     lecture = !is.na(lecture_file)
   ) %>%
+  ungroup() %>%
   mutate(
-    slides = case_when(
-      lecture ~ glue("<a class='fa fa-link' href='{lecture_file}' target='_blank'></a> / <a class='fa fa-file-pdf' href='{sub(\"html\",\"pdf\", lecture_file)}' target='_blank'></a>"),
+    Slides = case_when(
+      lecture ~ glue("<a class='fa fa-link' href='{lecture_file}' target='_blank'></a> <a class='fa fa-file-pdf' href='{sub(\"html\",\"pdf\", lecture_file)}' target='_blank'></a>"),
       TRUE ~ ""
     ),
-    topic = ifelse(is.na(topic), "", topic),
-    lab_link = paste0("https://biostats-uottawa.github.io/bio4158_manual/", lab_link),
-    lab = case_when(
-      !is.na(lab) ~ glue("<a class='fa fa-link' href='{lab_link}' target='_blank'>{lab}</a>"),
-      TRUE ~ ""
-    ),
-    assessment = ifelse(
-      is.na(assessment), "", assessment),
-    week = case_when(
-      is.na(week) ~ "",
-      TRUE ~ as.character(week)
+    Topic = ifelse(is.na(topic), "", topic),
+    Assessment = ifelse(is.na(assessment), "", assessment),
+    Practical = ifelse(is.na(practical), "", practical),
+    Date = as.Date(
+      case_when(
+        week > 20 ~ NA,
+        day == "wed" & week <= 6 ~ ymd(dat$date_start) + weeks(week),
+        day == "wed" & week > 6 ~ ymd(dat$date_start) + weeks(week + 1),
+        day == "mon" & week <= 6 ~ ymd(dat$date_start) + weeks(week - 1) + days(5),
+        day == "mon" & week > 6 ~ ymd(dat$date_start) + weeks(week) + days(5)
+      )
     )
   ) %>%
-  select(week, topic, slides, lab, assessment)
+  select(Date, Topic, Slides, Practical, Assessment, week)
 
 midsem_break <- 6 # after which week
 
-schedule_df %>%
-  kable(
-    escape = FALSE, align = c("l", "c", "c", "c", "c"),
-    col.names = c(
-      "Week", "Topic", "Slides", "Practical","Assessments"
-    )
-  ) %>%
-  kable_styling(
-    bootstrap_options = "striped",
-    fixed_thead = T
-  ) %>%
-  column_spec(1, width = "0.4cm") %>%
-  # column_spec(2, width = "3cm") %>%
-  # column_spec(3, width = "cm") %>%
-  group_rows("Reading week Break (1 week)", midsem_break + 1, 13, label_row_css = "background-color: #d9e1e8;") %>%
-  add_indent(1:(midsem_break)) # this needs to be done to match up with above
+schedule |>
+  gt() |>
+  cols_hide(week) |>
+  fmt_markdown(columns = c("Topic", "Slides", "Practical", "Assessment")) |>
+  fmt_date(
+    columns = Date,
+    date_style = "MMMd",
+    locale = "en"
+  ) |>
+  #  data_color(
+  #    columns = week,
+  #    target_columns = everything(),
+  #    palette = "inferno"
+  #  ) |>
+  #  tab_row_group(
+  #    label = "Reading week",
+  #    rows = (midsem_break * 2 + 2):26
+  #  ) |>
+  # row_group_order(groups = c(NA, "Reading week")) |>
+  cols_width(
+    Date ~ px(50),
+    Slides ~ px(20)
+  ) |>
+  sub_missing(missing_text = "") |>
+  tab_options(
+    table.width = pct(100),
+  )
 ```
 
 

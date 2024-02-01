@@ -1,3 +1,7 @@
+date_start: "2023-09-06"
+date_read: "2023-10-23"
+date_thks: "2023-10-09"
+
 schedule:
   - week: 0
     day: wed 
@@ -51,14 +55,16 @@ schedule:
     practical: ""
     assessment: ""
 # reading_week
+  - week: 20
+    topic: "**Reading week**"
   - week: 7
     day: mon
     topic: ""
   - week: 7
     day: wed
-    topic: "Mid-term"
-    practical: ""
-    assessment: "**Mid-term** during class"
+    topic: "No class"
+    practical: "Mid-term"
+    assessment: "**Mid-term** during practical"
   - week: 8
     day: mon
     topic: ""
@@ -97,6 +103,8 @@ schedule:
   - week: 12
     day: wed
     topic: "No lecture"
+  - week: 30
+    assessment: "**Final exam** during exam period"
 
 team:
   - name: Julien Martin
