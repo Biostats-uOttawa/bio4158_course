@@ -32,7 +32,7 @@
     "href": "lectures.html",
     "title": "Lectures",
     "section": "",
-    "text": "Lecturer {{&lt; fa person-chalkboard &gt;}}\n\nJulien Martin\n\n\n\nTeaching assitants\n\nIgor Tex\nBob Hêtte\n\n\n\nOffice hours {{&lt; fa clock &gt;}}\nMeetings will be in-person or online using zoom. Check brightspace for the links.\n\nJulien Martin: Wed 1100-1200 (in-person & online)\nIgor Tex: Fri 5.00-5.45pm (in-person)\nBob Hêtte: Thu 6.00-6.45pm (in-person)\n\n\n\nSchedule {{&lt; fa calendar-days &gt;}}\n\nLecture: Monday 1300-1420 in XXX\nLecture: Wednesday 1130-1300 in XXX\nPractical: Wednesday 1430-1720 in XXX\n\nThere are no lectures or tutorials during reading week.\n\n\n\n\n\nWeek\nTopic\nSlides\nPractical\nAssessments\n\n\n\n\n1\n\n\n\n\n\n\n2\ntest\n\n\n\n\n\n2\n\n\nIntro to R\n\n\n\n3\n\n\n\n\n\n\n4\n\n\n\n\n\n\n5\n\n\n\n\n\n\nReading week Break (1 week)\n\n\n6\n\n\n\n\n\n\n7\n\n\n\nMid-term (in class)\n\n\n8\n\n\n\n\n\n\n9\n\n\n\n\n\n\n10\n\n\n\n\n\n\n11\n\n\n\n\n\n\n12\n\n\n\n\n\n\n\n\n\n\nFinal exam"
+    "text": "Lecturer \n\nJulien Martin\n\n\n\nTeaching assitants\n\nIgor Tex\nBob Hêtte\n\n\n\nOffice hours \nMeetings will be in-person or online using zoom. Check brightspace for the links.\n\nJulien Martin: Wed 1100-1200 (in-person & online)\nIgor Tex: Fri 5.00-5.45pm (in-person)\nBob Hêtte: Thu 6.00-6.45pm (in-person)\n\n\n\nSchedule \n\nLecture: Monday 1300-1420 in XXX\nLecture: Wednesday 1130-1300 in XXX\nPractical: Wednesday 1430-1720 in XXX\n\nThere are no lectures or tutorials during reading week.\n\n\n\n\n\n\n\n\n\nDate\nTopic\nSlides\nPractical\nAssessment\n\n\n\n\nSep 6\nIntroduction\n\n\n\n\n\nSep 11\n\n\n\n\n\n\nSep 13\n\n\n\n\n\n\nSep 18\n\n\n\n\n\n\nSep 20\n\n\n\n\n\n\nSep 25\n\n\n\n\n\n\nSep 27\n\n\n\n\n\n\nOct 2\n\n\n\n\n\n\nOct 4\n\n\n\n\n\n\nOct 9\nThanksgiving\n\n\n\n\n\nOct 11\n\n\n\n\n\n\nOct 16\n\n\n\n\n\n\nOct 18\n\n\n\n\n\n\n\n\nReading week\n\n\n\n\n\nOct 30\n\n\n\n\n\n\nNov 1\nNo class\n\nMid-term\nMid-term during practical\n\n\nNov 6\n\n\n\n\n\n\nNov 8\n\n\n\n\n\n\nNov 13\n\n\n\n\n\n\nNov 15\n\n\n\n\n\n\nNov 20\n\n\n\n\n\n\nNov 22\n\n\n\n\n\n\nNov 27\n\n\n\n\n\n\nNov 29\n\n\n\n\n\n\nDec 4\nQ&A\n\n\n\n\n\nDec 6\nNo lecture\n\n\n\n\n\n\n\n\n\n\nFinal exam during exam period"
   },
   {
     "objectID": "dataset.html",
@@ -60,7 +60,7 @@
     "href": "people.html",
     "title": "Julien Martin",
     "section": "",
-    "text": "Julien is an Associate Professor at the University of Ottawa and has been teaching (and learning) R for the last 15 years."
+    "text": "Julien is an Associate Professor at the University of Ottawa and has been teaching (and learning) R for the last 15 years.\nI created the websites using Quarto, R, revealjs, mermaid.js and graphViz. I developed the theme for the slides based on the xaringan blackboard theme."
   },
   {
     "objectID": "syllabus.html",
