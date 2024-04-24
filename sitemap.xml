@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://Biostats-uOttawa.github.io/bio4158_course/where.html</loc>
-    <lastmod>2024-01-29T15:06:55.070Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Biostats-uOttawa.github.io/bio4158_course/practical_extra.html</loc>
-    <lastmod>2024-01-29T15:06:55.062Z</lastmod>
-  </url>
-  <url>
     <loc>https://Biostats-uOttawa.github.io/bio4158_course/lectures.html</loc>
     <lastmod>2024-02-01T03:24:20.358Z</lastmod>
   </url>
@@ -17,8 +9,12 @@
     <lastmod>2024-01-29T15:06:55.026Z</lastmod>
   </url>
   <url>
-    <loc>https://Biostats-uOttawa.github.io/bio4158_course/index.html</loc>
-    <lastmod>2024-02-09T17:32:59.028Z</lastmod>
+    <loc>https://Biostats-uOttawa.github.io/bio4158_course/practical_extra.html</loc>
+    <lastmod>2024-01-29T15:06:55.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biostats-uOttawa.github.io/bio4158_course/where.html</loc>
+    <lastmod>2024-01-29T15:06:55.070Z</lastmod>
   </url>
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio4158_course/people.html</loc>
@@ -27,5 +23,9 @@
   <url>
     <loc>https://Biostats-uOttawa.github.io/bio4158_course/syllabus.html</loc>
     <lastmod>2024-01-29T15:06:55.070Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Biostats-uOttawa.github.io/bio4158_course/index.html</loc>
+    <lastmod>2024-04-24T20:16:25.610Z</lastmod>
   </url>
 </urlset>
