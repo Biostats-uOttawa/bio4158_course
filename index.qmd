@@ -1,5 +1,6 @@
 ---
-title: "Applied biostatistics with R"
+title: |
+  Applied biostatistics with R ![](img/bio4x58_logo_hex.png){width="150"}
 format:
   html:
     toc: false
