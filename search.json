@@ -93,7 +93,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Applied biostatistics with R ",
+    "title": "Applied biostatistics with R",
     "section": "",
     "text": "This is an undergraduate level class at the University of Ottawa taugh by Julien Martin\nWhen and where:\n\nLectures:\n\nMondays 1:00-2:20 pm in SMD 224\nWednesdays 11:30 am-12:50 pm in SMD 224\n\nLabs\n\nWednesday 2:30-5:30 in in LPR 155\n\n\n\nCourse info\n\nLecture slides\nPractical manual\nSyllabus\n\n\n\nRequirements\n\n\nYou will need a recent version of R (4.0.0 or highher)\nInstall R and your favourite R IDE RStudio or VSCode\n\n\n\n\nCorrections\nIf you see mistakes or want to suggest changes, please create an issue on the source repository.\n\n\nReuse\nText and figures are licensed under Creative Commons Attribution CC BY 4.0. Any computer code (R, HTML, CSS, etc.) in slides and worksheets, including in slide and worksheet sources, is also licensed under MIT."
   }
