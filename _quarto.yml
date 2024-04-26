@@ -12,9 +12,11 @@ website:
   google-analytics: G-6LLMGL3T2Q
   title: "BIO4158 course"
   description: "Applied biostatistics with R"
+  favicon: img/logo_hex.png
   navbar:
+    title: '![](img/logo_hex.png){width="50px"} BIO4158: course'
+#    logo: img/logo_hex.png
     background: light
-    title: "BIO4158: course"
     left:
       - text: Lectures
         href: lectures.qmd
