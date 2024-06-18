@@ -4,107 +4,103 @@ date_thks: "2023-10-09"
 
 schedule:
   - week: 0
-    day: wed 
+    session: 2 
     topic: Introduction
   - week: 1
-    day: mon
-    topic: ""
+    session: 1
+    topic: "Introduction to R and life"
   - week: 1
-    day: wed
-    topic: ""
-    practical: ""
-    assessment: ""
+    session: 2
+    topic: "Awesome subject"
+  - week: 1
+    session: 3
+    topic: "*Lab: intro to R*"
+    reading: "[chap 3](https://biostats-uottawa.github.io/)"
   - week: 2
-    day: mon
+    session: 1
     topic: ""
   - week: 2
-    day: wed
-    topic: ""
-    practical: ""
-    assessment: ""
-  - week: 3
-    day: mon
+    session: 2
     topic: ""
   - week: 3
-    day: wed
+    session: 1
     topic: ""
-    practical: ""
-    assessment: ""
-  - week: 4
-    day: mon
+  - week: 3
+    session: 2
     topic: ""
   - week: 4
-    day: wed
+    session: 1
     topic: ""
-    practical: ""
-    assessment: ""
+  - week: 4
+    session: 2
+    topic: ""
   - week: 5
-    day: mon
+    session: 1
     topic: " Thanksgiving"
   - week: 5
-    day: wed
-    topic: ""
-    practical: ""
-    assessment: ""
-  - week: 6
-    day: mon
+    session: 2
     topic: ""
   - week: 6
-    day: wed
+    session: 1
     topic: ""
-    practical: ""
-    assessment: ""
+  - week: 6
+    session: 2
+    topic: ""
 # reading_week
-  - week: 20
+  - week: 21
     topic: "**Reading week**"
+# reading week
   - week: 7
-    day: mon
+    session: 1
     topic: ""
   - week: 7
-    day: wed
+    session: 2
     topic: "No class"
-    practical: "Mid-term"
+  - week: 7
+    session: 3
+    topic: ""
     assessment: "**Mid-term** during practical"
   - week: 8
-    day: mon
+    session: 1
     topic: ""
   - week: 8
-    day: wed
+    session: 2
     topic: ""
     practical: ""
     assessment: ""
   - week: 9
-    day: mon
+    session: 1
     topic: ""
   - week: 9
-    day: wed
+    session: 2
     topic: ""
     practical: ""
     assessment: ""
   - week: 10
-    day: mon
+    session: 1
     topic: ""
   - week: 10
-    day: wed
+    session: 2
     topic: ""
     practical: ""
     assessment: ""
   - week: 11
-    day: mon
+    session: 1
     topic: ""
   - week: 11
-    day: wed
+    session: 2
     topic: ""
     practical: ""
     assessment: ""
   - week: 12
-    day: mon
+    session: 1
     topic: "Q&A"
   - week: 12
-    day: wed
+    session: 2
     topic: "No lecture"
-  - week: 30
-    assessment: "**Final exam** during exam period"
+  - week: 31
+    topic: "**Final exam**"
+    assessment: "during exam period"
 
 team:
   - name: Julien Martin

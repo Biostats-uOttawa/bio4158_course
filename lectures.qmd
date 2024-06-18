@@ -58,6 +58,12 @@ check <- character(0)
 schedule <- schedule_df %>%
   rowwise() %>%
   mutate(
+    day = case_match(
+      session,
+      1 ~ "mon",
+      2 ~ "wed",
+      3 ~ "thu"
+    ),
     lecture_file = ifelse(
       identical(
         str_subset(
@@ -76,8 +82,9 @@ schedule <- schedule_df %>%
   ) %>%
   ungroup() %>%
   mutate(
-    Slides = case_when(
-      lecture ~ glue("<a class='fa fa-link' href='{lecture_file}' target='_blank'></a> <a class='fa fa-file-pdf' href='{sub(\"html\",\"pdf\", lecture_file)}' target='_blank'></a>"),
+    Material = case_when(
+      session != 3 & lecture == TRUE ~ glue("<a class='fa fa-link' href='{lecture_file}' target='_blank'></a> <a class='fa fa-file-pdf' href='{sub(\"html\",\"pdf\", lecture_file)}' target='_blank'></a>"),
+      session == 3 ~ reading,
       TRUE ~ ""
     ),
     Topic = ifelse(is.na(topic), "", topic),
@@ -88,29 +95,33 @@ schedule <- schedule_df %>%
         week > 20 ~ NA,
         day == "wed" & week <= 6 ~ ymd(dat$date_start) + weeks(week),
         day == "wed" & week > 6 ~ ymd(dat$date_start) + weeks(week + 1),
-        day == "mon" & week <= 6 ~ ymd(dat$date_start) + weeks(week - 1) + days(5),
-        day == "mon" & week > 6 ~ ymd(dat$date_start) + weeks(week) + days(5)
+        day == "mon" & week <= 6 ~ ymd(dat$date_start) + weeks(week) - days(2),
+        day == "mon" & week > 6 ~ ymd(dat$date_start) + weeks(week + 1) - days(2),
+        day == "thu" & week <= 6 ~ ymd(dat$date_start) + weeks(week) + days(1),
+        day == "thu" & week > 6 ~ ymd(dat$date_start) + weeks(week + 1) + days(1)
       )
-    )
+    ),
+    wk = ifelse((week %% 2) == 0, "a", ifelse(week < 20, "b", "c"))
   ) %>%
-  select(Date, Topic, Slides, Practical, Assessment, week)
+  select(Date, Topic, Material, Practical, Assessment, week, wk)
 
 midsem_break <- 6 # after which week
 
 schedule |>
   gt() |>
-  cols_hide(week) |>
-  fmt_markdown(columns = c("Topic", "Slides", "Practical", "Assessment")) |>
+  cols_hide(c(week, wk, Practical)) |>
+  fmt_markdown(columns = c("Topic", "Material", "Practical", "Assessment")) |>
   fmt_date(
     columns = Date,
     date_style = "MMMd",
     locale = "en"
   ) |>
-  #  data_color(
-  #    columns = week,
-  #    target_columns = everything(),
-  #    palette = "inferno"
-  #  ) |>
+  data_color(
+    columns = wk,
+    method = "factor",
+    target_columns = everything(),
+    palette = c("lightblue", "grey50", "pink")
+  ) |>
   #  tab_row_group(
   #    label = "Reading week",
   #    rows = (midsem_break * 2 + 2):26
@@ -118,7 +129,7 @@ schedule |>
   # row_group_order(groups = c(NA, "Reading week")) |>
   cols_width(
     Date ~ px(50),
-    Slides ~ px(20)
+    Material ~ px(20)
   ) |>
   sub_missing(missing_text = "") |>
   tab_options(
